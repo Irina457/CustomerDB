@@ -24,7 +24,7 @@ public class Application {
             );
 
             //переместить курсор на 1 элемент вниз и перемещается до конца, пока есть, что возвращать
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 System.out.printf("\tcustomer_id - %s%n", resultSet.getString("name"));
                 System.out.printf("\tcustomer_id - %s%n", resultSet.getString("phone"));
                 System.out.printf("\tsum_orders - %s%n", resultSet.getString("sum_orders"));
